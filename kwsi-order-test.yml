@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: kwsi-order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: admin
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/sell?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&elideSetAutoCommits=true&cacheServerConfiguration=true&serverTimezone=Hongkong&tinyInt1isBit=false
+    jpa:
+      show-sql: true
+server:
+  port: 8081
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server1:8888/eureka/
+env:
+  test
