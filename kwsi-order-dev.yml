@@ -17,4 +17,4 @@ eureka:
     service-url:
       defaultZone: http://server1:8888/eureka/
 env:
-  dev4
+  dev5 哈哈
